@@ -10,6 +10,7 @@ public class Clock{
 
     private Time theTime;
     private Date theDate;
+    private State state;
 
     public Clock(){
         theTime = new Time();
