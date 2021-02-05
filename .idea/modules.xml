@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SysII-Labb-Testning-Part-One/SysII-Labb-Testning-Part-One.iml" filepath="$PROJECT_DIR$/SysII-Labb-Testning-Part-One/SysII-Labb-Testning-Part-One.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SysII-Labb-Testning-Part-Two/SysII-Labb-Testning-Part-Two.iml" filepath="$PROJECT_DIR$/SysII-Labb-Testning-Part-Two/SysII-Labb-Testning-Part-Two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SysII_TestLab.iml" filepath="$PROJECT_DIR$/.idea/SysII_TestLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SysII-Labb-Testning-Part-One/test/test.iml" filepath="$PROJECT_DIR$/SysII-Labb-Testning-Part-One/test/test.iml" />
+    </modules>
+  </component>
+</project>
