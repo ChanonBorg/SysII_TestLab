@@ -6,7 +6,8 @@ package main;
  * @created 05/02/2021
  * @project SysII_TestLab
  */
-public class Clock {
+public class Clock{
+
     private Time theTime;
     private Date theDate;
 
