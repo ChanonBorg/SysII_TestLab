@@ -1,3 +1,3 @@
 package main;
 
-public enum State {ChangeTime, DisplayTime, DisplayDate, ChangeDate,}
+public enum State {DisplayTime, DisplayDate, ChangeTime, ChangeDate}

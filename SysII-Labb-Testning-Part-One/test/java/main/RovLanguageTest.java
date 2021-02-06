@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.testng.Assert;
 
 /**
- * @author Chanon Borgström
+ * @author Chanon Borgström and Sofia Hallberg
  * @created 05/02/2021
  * @project SysII-Labb-Testning
  */

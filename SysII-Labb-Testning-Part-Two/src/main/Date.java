@@ -10,13 +10,22 @@ public class Date {
     private int theMonth;
     private int theDay;
 
-    protected String dateSet(int year, int month, int day){
+    public Date() {
+        theYear=2000;
+        theMonth=01;
+        theDay=01;
+        System.out.println("Date is created");
+    }
 
-        return null;
+    protected String dateSet(int year, int month, int day){
+        theYear=year;
+        theMonth=month;
+        theDay=day;
+
+        return theYear+"-"+theMonth+"-"+theDay;
     }
 
     protected String showDate(){
-
-        return null;
+        return theYear+"-"+theMonth+"-"+theDay;
     }
 }
