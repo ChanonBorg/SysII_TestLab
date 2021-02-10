@@ -36,7 +36,7 @@
   <component name="RunManager" selected="JUnit.ClockTest">
     <configuration name="ClockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SysII-Labb-Testning-Part-Two" />
-      <extension name="coverage">
+      <extension name="coverage" sample_coverage="false">
         <pattern>
           <option name="PATTERN" value="main.*" />
           <option name="ENABLED" value="true" />
@@ -123,10 +123,10 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TestClock" />
-      <item itemvalue="TestNG.&lt;default&gt;" />
       <item itemvalue="JUnit.ClockTest.changeMode" />
       <item itemvalue="JUnit.ClockTest.ready" />
       <item itemvalue="JUnit.ClockTest" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
     </list>
     <recent_temporary>
       <list>

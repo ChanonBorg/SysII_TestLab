@@ -18,7 +18,6 @@ public class Clock{
         theTime = new Time();
         theDate = new Date();
         state=DisplayTime;
-        System.out.println("Clock is created");
     }
 
     public String changeMode(){

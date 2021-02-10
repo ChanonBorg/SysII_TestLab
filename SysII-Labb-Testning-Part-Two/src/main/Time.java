@@ -14,14 +14,20 @@ public class Time {
         theHour=00;
         theMinute=00;
         theSecond=00;
-        System.out.println("Time is created");
     }
 
     protected String timeSet(int hour, int minute, int second) {
-        theHour = hour;
-        theMinute = minute;
-        theSecond = second;
-        return theHour+":"+theMinute+":"+theSecond;
+        String returnStatement="";
+        if(hour>=0 && hour<24 && minute>=0 && minute>59 && second>=0 && second>59) {
+            theHour = hour;
+            theMinute = minute;
+            theSecond = second;
+            returnStatement=theHour+":"+theMinute+":"+theSecond;
+        }
+        else {
+            returnStatement="Invalid time";
+        }
+        return returnStatement;
     }
 
     protected String showTime() {

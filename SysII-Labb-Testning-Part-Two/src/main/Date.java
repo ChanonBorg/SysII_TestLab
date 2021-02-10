@@ -14,7 +14,6 @@ public class Date {
         theYear=2000;
         theMonth=01;
         theDay=01;
-        System.out.println("Date is created");
     }
 
     protected String dateSet(int year, int month, int day){
