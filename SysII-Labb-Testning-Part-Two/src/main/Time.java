@@ -18,7 +18,7 @@ public class Time {
 
     protected String timeSet(int hour, int minute, int second) {
         String returnStatement="";
-        if(hour>=0 && hour<24 && minute>=0 && minute>59 && second>=0 && second>59) {
+        if(hour>=0 && hour<24 && minute>=0 && minute<59 && second>=0 && second<59) {
             theHour = hour;
             theMinute = minute;
             theSecond = second;

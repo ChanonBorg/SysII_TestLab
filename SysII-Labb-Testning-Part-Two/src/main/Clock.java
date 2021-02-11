@@ -80,6 +80,6 @@ public class Clock{
                 returnStatement="Error 002";
         }
 
-        return null;
+        return returnStatement;
     }
 }

@@ -17,9 +17,18 @@ public class Date {
     }
 
     protected String dateSet(int year, int month, int day){
-        theYear=year;
-        theMonth=month;
-        theDay=day;
+        String returnstatement="";
+
+        if(year>1999 && year<2101 && day>0 && month<13 && day>0 && day<32) {
+            theYear = year;
+            theMonth = month;
+            theDay = day;
+            returnstatement = theYear + "-" + theMonth + "-" + theDay;
+        }
+        // Todo lägg till alla else för olika felaktiga värden
+        else {
+            returnstatement= "";
+        }
 
         return theYear+"-"+theMonth+"-"+theDay;
     }
