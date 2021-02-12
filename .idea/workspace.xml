@@ -123,9 +123,9 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TestClock" />
+      <item itemvalue="JUnit.ClockTest" />
       <item itemvalue="JUnit.ClockTest.changeMode" />
       <item itemvalue="JUnit.ClockTest.ready" />
-      <item itemvalue="JUnit.ClockTest" />
       <item itemvalue="TestNG.&lt;default&gt;" />
     </list>
     <recent_temporary>
@@ -149,7 +149,7 @@
     <servers />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SysII_TestLab$ClockTest.ic" NAME="ClockTest Coverage Results" MODIFIED="1613033558491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/SysII_TestLab$ClockTest.ic" NAME="ClockTest Coverage Results" MODIFIED="1613121397136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
       <FILTER>main.*</FILTER>
     </SUITE>
   </component>

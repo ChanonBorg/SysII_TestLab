@@ -11,29 +11,27 @@ public class Date {
     private int theDay;
 
     public Date() {
-        theYear=2000;
-        theMonth=01;
-        theDay=01;
+        theYear = 2000;
+        theMonth = 01;
+        theDay = 01;
     }
 
-    protected String dateSet(int year, int month, int day){
-        String returnstatement="";
+    protected String dateSet(int year, int month, int day) {
+        String returnstatement = "";
 
-        if(year>1999 && year<2101 && day>0 && month<13 && day>0 && day<32) {
+        if (year > 1999 && year < 2101 && month > 0 && month < 13 && day > 0 && day < 32) {
             theYear = year;
             theMonth = month;
             theDay = day;
             returnstatement = theYear + "-" + theMonth + "-" + theDay;
-        }
-        // Todo lägg till alla else för olika felaktiga värden
-        else {
-            returnstatement= "";
+        } else {
+            returnstatement = "Invalid Date";
         }
 
-        return theYear+"-"+theMonth+"-"+theDay;
+        return returnstatement;
     }
 
-    protected String showDate(){
-        return theYear+"-"+theMonth+"-"+theDay;
+    protected String showDate() {
+        return theYear + "-" + theMonth + "-" + theDay;
     }
 }

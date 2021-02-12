@@ -11,27 +11,26 @@ public class Time {
     private int theSecond;
 
     public Time() {
-        theHour=00;
-        theMinute=00;
-        theSecond=00;
+        theHour = 00;
+        theMinute = 00;
+        theSecond = 00;
     }
 
     protected String timeSet(int hour, int minute, int second) {
-        String returnStatement="";
-        if(hour>=0 && hour<24 && minute>=0 && minute<59 && second>=0 && second<59) {
+        String returnStatement = "";
+        if (hour >= 0 && hour < 24 && minute >= 0 && minute < 60 && second >= 0 && second < 60) {
             theHour = hour;
             theMinute = minute;
             theSecond = second;
-            returnStatement=theHour+":"+theMinute+":"+theSecond;
-        }
-        else {
-            returnStatement="Invalid time";
+            returnStatement = theHour + ":" + theMinute + ":" + theSecond;
+        } else {
+            returnStatement = "Invalid Time";
         }
         return returnStatement;
     }
 
     protected String showTime() {
 
-        return theHour+":"+theMinute+":"+theSecond;
+        return theHour + ":" + theMinute + ":" + theSecond;
     }
 }
