@@ -33,7 +33,7 @@
     <property name="project.structure.side.proportion" value="0.39195403" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.ClockTest">
+  <component name="RunManager" selected="JUnit.RovLanguageTest">
     <configuration name="ClockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SysII-Labb-Testning-Part-Two" />
       <extension name="coverage" sample_coverage="false">
@@ -88,6 +88,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RovLanguageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="14" />
+      <option name="PACKAGE_NAME" value="main" />
+      <option name="MAIN_CLASS_NAME" value="main.RovLanguageTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestClock" type="JUnit" factoryName="JUnit">
       <module name="test" />
       <extension name="coverage" sample_coverage="false" />
@@ -127,9 +145,11 @@
       <item itemvalue="JUnit.ClockTest.changeMode" />
       <item itemvalue="JUnit.ClockTest.ready" />
       <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="JUnit.RovLanguageTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RovLanguageTest" />
         <item itemvalue="JUnit.ClockTest" />
         <item itemvalue="JUnit.ClockTest.changeMode" />
         <item itemvalue="JUnit.ClockTest.ready" />
